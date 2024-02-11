@@ -1,0 +1,148 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 16px;
+}
+
+
+body {
+  background-image: url("/img/MAROCCO2.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+header{
+  background-color: RGB(225,215,215,0.4);
+  display: flex;
+  font-size: 1.5rem;
+  font-family: "Baskerville Old Face";
+}
+header a{
+  margin-left: 5rem;
+  color: white;
+  font-style: italic;
+}
+
+#nav_link_1{
+  margin-left: 20rem;
+}
+
+#icon{
+ width:15rem;
+ height:15rem;
+ display: flex;
+  margin-top: -4rem;
+}
+
+aside img{
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+
+}
+
+aside{
+  margin-top: -11rem;
+  align-content: center;
+  align-items: center;
+  background-color: white;
+  width: 14rem;
+  margin-left: 60rem;
+  padding: 2rem;
+}
+
+#h2_title{
+  color: steelblue;
+  font-family: "High Tower Text";
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+}
+
+ul{
+  list-style: none;
+}
+
+.aside_content{
+  align-items: center;
+  display: flex;
+  margin-bottom: 2.7rem;
+
+}
+.aside_content p{
+  margin-right:  -1rem;
+  margin-left: 2rem;
+
+  color: midnightblue;
+}
+
+.aside_content a:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
+}
+
+main{
+  display: block;
+  margin-top:-30rem;
+  margin-left: 18rem;
+  color: white;
+  font-family: "Baskerville Old Face";
+
+}
+#title{
+  font-size: 3.2rem;
+  margin-bottom: 2rem;
+}
+
+
+.destination{
+  margin-left: 7rem;
+  margin-bottom: 0.6rem;
+  display: flex;
+  flex-direction: column;
+}
+.destination label{
+  margin-left: 4rem;
+}
+
+.destination input{
+  width: 16rem;
+  height: 2rem;
+  border-radius: 1rem;
+  border-color: white;
+  border-style: none;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+margin-left: 7rem;
+}
+
+.date label {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.date input[type="date"] {
+  width: 7rem;
+  height: 2rem;
+  border-radius: 1rem;
+  border-color: white;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+  border-style: none;
+}
+
+input[type=button]{
+  width: 5rem;
+  height: 2rem;
+  border-radius: 1rem;
+  border-color: white;
+  border-style: none;
+  margin-left: 12rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
